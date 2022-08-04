@@ -1,0 +1,12 @@
+@import "./fonts/fonts";
+@import "./variables/variables";
+
+.wrapper {
+  font-family: "PFDinTextCondPro";
+  border: 2px solid black;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: #FECC2F;
+}

@@ -1,0 +1,58 @@
+
+.header {
+  position: absolute;
+  height: 82px;
+  border: 2px solid red;
+  width: 100%;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+
+  .iconGroupMain {
+    position: absolute;
+    height: calc((27 / 82) * 100%);
+    left: calc(134 / 1440 * 100%);
+
+    .image {
+      position: absolute;
+      height: 100%;
+    }
+  }
+
+  .navMain {
+    font-weight: 500;
+    position: absolute;
+    left: calc(535 / 1440 * 100%);
+    width: calc(352 / 1440 * 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .navLogin {
+    font-weight: 500;
+    position: absolute;
+    left: calc(1078 / 1440 * 100%);
+    width: calc(227 / 1440 * 100%);
+    height: calc(40 / 82 * 100%);;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .btnSignIn {
+      width: 120px;
+      height: 40px;
+      background: #FFCD00;
+      border-radius: 29px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  & a {
+    text-decoration: none;
+    color: #5A1404;
+  }
+}
